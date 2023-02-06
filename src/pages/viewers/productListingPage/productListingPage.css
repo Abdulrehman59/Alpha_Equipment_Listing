@@ -1,0 +1,475 @@
+.alpha-pro_list_page_top_container {
+    padding-top: 5rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.alpha-pro_list_page-main_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.alpha-pro_list_page_filter_and_items_view {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.alpha-main_cat_page_filter_and_items_view {
+    height: 95.4rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.alpha-pro_list_page_filter_top_view {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0.5rem;
+    width: 31.8rem;
+    height: 56rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.alpha-pro_list_page_filter_title_view {
+    height: 6.9rem;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    display: flex;
+    background-color: #F18805;
+    align-items: center;
+    justify-content: center;
+}
+
+.alpha-main_cat_page_filter_title_view h1 {
+    font-family: lato;
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-left: 12.7rem;
+    padding-right: 12.7rem;
+    line-height: 2.9rem;
+    color: #FFFFFF;
+}
+
+.alpha-pro_list_page_filter_items_view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 2rem 2rem 1.6rem
+}
+
+.alpha-pro_list_page_filter_items_view h2 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
+
+.alpha-pro_list_page_filter_items_view img {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.alpha-pro_list_page_item_top_view {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E6E6E6;
+    width: 100%;
+    padding: 1.6rem 2rem 0rem 2rem;
+}
+
+.alpha-pro_list_page_heading_and_search_view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+
+}
+
+.alpha-pro_list_page_heading_and_search_view h2 {
+    font-family: lato;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    color: #F18805;
+}
+
+.alpha-pro_list_page_heading_and_search_view h3 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #3F3F3F;
+}
+
+.alpha-pro_list_page_divider {
+    border-bottom: 1px solid #E6E6E6;
+    margin-right: -2rem;
+    margin-left: -2rem;
+}
+
+.alpha-pro_list_page_item_view {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.alpha-pro_list_page_item_image_view {
+    display: flex;
+    margin-right: 1.6rem;
+}
+
+.alpha-pro_list_page_item_image_view img {
+    width: 28.7rem;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 0.5rem;
+}
+
+.alpha-pro_list_page_item_detail_view {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.alpha-pro_list_page_item_detail_view h1 {
+    font-family: lato;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #000000;
+    padding-bottom: 1.8rem;
+}
+
+.alpha-pro_list_page_item_detail_view h2 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #707070;
+    padding-bottom: 0.8rem;
+}
+
+.alpha-pro_list_page_item_detail_view h5 {
+    font-family: lato;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #000000;
+    padding-bottom: 1.2rem;
+}
+
+.alpha-pro_list_page_item_detail_view p {
+    font-family: lato;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    color: #F18805;
+}
+
+.alpha-pro_list_page_item_detail_view h6 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F18805;
+}
+
+
+.alpha-pro_list_page-dis_and_km_top_view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alpha-pro_list_page-dis_view {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+.alpha-pro_list_page-dis_view h3 {
+    font-family: lato;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #707070;
+}
+
+.alpha-pro_list_page-dis_view h4 {
+    font-family: lato;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #101010;
+
+}
+
+.alpha-pro_list_page-dis_view img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.3rem;
+}
+
+.alpha-pro_list_page_see_all_view {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.alpha-pro_list_page_see_all_view div {
+    display: flex;
+    width: 19.9rem;
+    height: 4.7rem;
+    background: #F18805;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.alpha-pro_list_page_see_all_view h2 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+.alpha-pro_list_page_drawer_icon_view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alpha-pro_list_page_drawer_icon_view img {
+    display: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 1140px) {
+    .alpha-pro_list_page_filter_top_view {
+        display: none;
+    }
+
+    .alpha-pro_list_page_drawer_icon_view img {
+        display: flex
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .alpha-pro_list_page_item_detail_view h1 {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view h2 {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view h5 {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view p {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .alpha-pro_list_page-dis_view h3 {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+    }
+
+    .alpha-pro_list_page-dis_view h4 {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .alpha-pro_list_page-dis_view img {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alpha-pro_list_page_item_view {
+        flex-wrap: wrap;
+    }
+
+    .alpha-pro_list_page_item_image_view {
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .alpha-pro_list_page_item_image_view img {
+        width: 100%;
+        object-fit: fill;
+        height: 18rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .alpha-pro_list_page_top_container {
+        padding-top: 4rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .alpha-pro_list_page_heading_and_search_view h2 {
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+
+    }
+
+    .alpha-pro_list_page_heading_and_search_view h3 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .alpha-pro_list_page_drawer_icon_view img {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .alpha-pro_list_page_heading_and_search_view h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+
+    }
+
+    .alpha-pro_list_page_heading_and_search_view h3 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .alpha-pro_list_page_drawer_icon_view img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .alpha-pro_list_page_heading_and_search_view {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .alpha-main_cat_page_filter_title_view h1 {
+        font-size: 2.1rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        line-height: 2.7rem;
+    }
+
+    .alpha-pro_list_page_filter_items_view h2 {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    .alpha-pro_list_page_filter_items_view img {
+        width: 2.2rem;
+        height: 2.2rem;
+        cursor: pointer;
+    }
+
+    .alpha-pro_list_page_item_detail_view h1 {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view h2 {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view h5 {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view p {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .alpha-pro_list_page_item_detail_view h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .alpha-pro_list_page-dis_view h3 {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .alpha-pro_list_page-dis_view h4 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .alpha-pro_list_page-dis_view img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    .alpha-main_cat_page_filter_title_view h1 {
+        font-size: 1.9rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        line-height: 2.5rem;
+    }
+
+    .alpha-pro_list_page_filter_items_view h2 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .alpha-pro_list_page_filter_items_view img {
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+}
